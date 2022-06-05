@@ -1,0 +1,78 @@
+*{
+  margin: auto;
+  text-decoration-line: none;
+}
+.title{
+  text-align: center;
+  margin-top: 20px;
+  border: double;
+  border-width: 6px;
+  border-color: rgb(255, 70, 70);
+  width: 700px;
+  background-color: black;
+}
+.title h1{
+  margin: 0;
+  color: aqua;
+  /* width: fit-content; */
+}
+main{
+  margin-top: 50px;
+  max-width: 650px;
+  max-height: 700px;
+  border: solid;
+  padding: 20px;
+  color: rgb(255, 70, 70);
+}
+.con a{
+  color:yellowgreen;
+}
+.a{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  border: solid;
+  margin: 0px;
+}
+#incheon{
+  background-image: url('./인천.jpg');
+  background-size: cover;
+  background-position-x: center;
+  background-repeat: no-repeat;
+}
+#seoul{
+  background-image: url('./서울.jpg');
+  background-size: cover;
+  background-position-x: center;
+  background-repeat: no-repeat;
+}
+#gyeon{
+  background-image: url('./경기.jpg');
+  background-size: cover;
+  background-position-x: center;
+  background-repeat: no-repeat;
+}
+#busan{
+  background-image: url('./부산.jpg');
+  background-size: cover;
+  background-position-x: center;
+  background-repeat: no-repeat;
+}
+.con {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+body{
+  background-image: url("./페스티벌.jpg");
+  height: 100vh;
+  background-position-x: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#background-cover{
+  width: 60%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* 인천 style */
