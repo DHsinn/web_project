@@ -8,13 +8,13 @@
   margin-top: 20px;
   border: double;
   border-width: 6px;
-  border-color: rgb(255, 70, 70);
+  border-color: rgb(87, 59, 187);
   width: 100%;
   background-color: black;
 }
 .title h1{
   margin: 0;
-  color: aqua;
+  color: rgb(175, 189, 57);
   /* width: fit-content; */
 }
 main{
@@ -70,6 +70,7 @@ main{
 }
 body{
   background-image: url("./페스티벌.jpg");
+  background-attachment: fixed;
   height: 100vh;
   background-position-x: center;
   background-size: cover;
@@ -77,8 +78,20 @@ body{
 }
 #background-cover{
   width: 60%;
-  height: 82.5%;
+  height: fit-content;
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* 인천 style */
+
+/* 지역 style */
+#info{
+  margin: 30px;
+  color: antiquewhite;
+  border: groove 3px;
+  border-color: rgb(38, 108, 170);
+}
+/* table{
+  border-collapse: collapse;
+  width: 70%;
+  margin: 0 auto;
+} */
