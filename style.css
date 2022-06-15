@@ -39,6 +39,8 @@ main{
   transform: scale(1.2);
   transition: all 300ms;
 }
+
+/* 지역 style */
 #incheon{
   background-image: url('./인천.jpg');
   background-size: cover;
@@ -82,8 +84,6 @@ body{
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-
-/* 지역 style */
 #info{
   margin: 30px;
   color: antiquewhite;
