@@ -35,10 +35,6 @@ main{
   border: solid;
   margin: 0px;
 }
-.a:hover{
-  transform: scale(1.2);
-  transition: all 300ms;
-}
 
 /* 지역 style */
 #incheon{
@@ -47,11 +43,21 @@ main{
   background-position-x: center;
   background-repeat: no-repeat;
 }
+#incheon:hover{
+  transform: scale(1.2);
+  transition: all 300ms;
+  background-image: url('./인천.gif');
+}
 #seoul{
   background-image: url('./서울.jpg');
   background-size: cover;
   background-position-x: center;
   background-repeat: no-repeat;
+}
+#seoul:hover{
+  transform: scale(1.2);
+  transition: all 300ms;
+  background-image: url('./서울.gif');
 }
 #gyeon{
   background-image: url('./경기.jpg');
@@ -59,11 +65,21 @@ main{
   background-position-x: center;
   background-repeat: no-repeat;
 }
+#gyeon:hover{
+  transform: scale(1.2);
+  transition: all 300ms;
+  background-image: url('./경기.gif');
+}
 #busan{
   background-image: url('./부산.jpg');
   background-size: cover;
   background-position-x: center;
   background-repeat: no-repeat;
+}
+#busan:hover{
+  transform: scale(1.2);
+  transition: all 300ms;
+  background-image: url('./부산.gif');
 }
 .con {
   display: flex;
