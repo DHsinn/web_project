@@ -1,6 +1,5 @@
-// function ppp(){document.getElementById('sound1').onplay();}
-// function sss(){document.getElementById('sound1').pause();}
 let i_t = document.getElementById('info-table');
+// let info = document.getElementById('info');
 
 $.getJSON("./fest.json", function(jsonData){
   let th = document.createElement('th');
